@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; width: 150px; height: 70px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); align-items: stretch; position: absolute; flex-basis: 0;">
+        <ui:Label tabindex="-1" text="Score:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Score" />
+        <ui:Label tabindex="-1" text="HighScore: 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Highscore" />
+    </ui:VisualElement>
+</ui:UXML>
